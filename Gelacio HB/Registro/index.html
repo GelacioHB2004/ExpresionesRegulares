@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Practica de Validaciones</h1>
+        <h2 class="subtitle">Registro de usuarios</h2>
+
+        <form action="" method="get">
+            <label for="numTrab">Numero de Trabajador</label><br>
+            <input class="input" type="text" 
+            placeholder="Numero de Trabajador" name="numTrab"
+            id="numTrab" required max="999"pattern="">
+            <br>
+            <label for="name">Nombre del Usuario</label>
+            <input type="text" class="input" required placeholder="Nombre" 
+            maxlength="20"><br>
+            <label for="app">Apellido Paterno</label>
+            <input type="text" class="input" required placeholder="Apellido Paterno" 
+            maxlength="25"> <br>
+            <label for="apm">Apellido Materno</label>
+            <input type="text" class="input" required placeholder="Apellido Materno" 
+            maxlength="25"> <br>
+            <label for="edad">Edad</label>
+            <input type="number" class="input" required min="18" 
+            max="90" placeholder="Edad" step="2"> 
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" 
+            class="input" required maxlength="50" placeholder="Email">
+            <br>
+            <label for="pass" >Password</label>
+            <input type="password" class="input" minlength="8" required 
+            placeholder="Password" maxlength="20">
+            <br>
+            <label for="pass" >Confirmar Password</label>
+            <input type="password" class="input" minlength="8" required 
+            placeholder="Confirmar Password" maxlength="20">
+            <br>
+
+            <input type="submit" class="button" onclick="ValidaPass()">
+
+            <script src="./Validacion.js"></script>
+
+        </form>
+    </div>
+    
+</body>
+</html>

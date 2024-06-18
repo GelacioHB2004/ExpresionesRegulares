@@ -1,0 +1,95 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/ft.jpg);
+    
+}
+
+h1, h2, h3 
+{
+    
+    text-align: center;
+    color: #000000;
+    font-family: 'Times New Roman', Times,;
+}
+
+
+
+img 
+{
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;  
+   
+}
+
+p {
+    width: 80%;
+    margin: 20px auto; 
+    padding: 10px;
+    box-shadow:  0 10px rgb(71, 113, 133);
+    border-radius: 8px;
+
+}
+
+
+ol, ul {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #7b8e98;
+    
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(38, 38, 37);
+    border-radius: 8px;
+    
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #d61115;
+}
+
+table
+{
+    border: 1px solid #000000;
+    background: #5c747d;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #69aaab;
+    color: #000000;
+}
+
+
+.container
+{
+    width: 80%; 
+    margin: 20px auto; 
+    padding: 20px;
+    
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.dv
+{
+    display: block;
+   text-align: center;
+}
